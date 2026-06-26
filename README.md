@@ -1,27 +1,28 @@
-# A.P. Moller - Maersk
+# A.P Moller-Maersk Landside Transportation Pricing Analysis
 
-Landside transportation pricing analysis — CM1, EBIT, win rate modeling  Topics: python, pandas, pricing-analysis, logistics, data-analysis
+This project simulates a landside transportation pricing dataset and analyzes how price position affects win rate, CM1, EBIT, and customer profitability.
 
-## Overview
-This project simulates and analyzes a landside transportation pricing dataset
-to demonstrate the analytical thinking required for a Pricing Analyst role.
+It was built to reflect the kind of analytical thinking needed for a Landside Transportation Product Analyst role, where pricing decisions must balance competitiveness, margin, and customer value.
+
+## Key Takeaway
+
+The analysis shows that pricing slightly below to near the competitor creates the best balance between win rate and margin. Pricing too high reduces wins, while pricing too low can hurt profitability.
 
 ## What This Project Covers
-- Transportation cost modeling across drayage, inland, linehaul, and store delivery
-- CM1 (Gross Profit) and EBIT profitability analysis by mode and customer
-- Price competitiveness analysis using a probabilistic win/loss model
-- Identification of loss-making shipments and repricing recommendations
-- Customer profitability ownership across 5 accounts
 
-## Key Finding
-Win rate drops from 92% when priced well below the competitor to 17% when
-priced significantly above. The optimal pricing zone is slightly below to at
-parity with the competitor — maximising both win rate and margin.
+- Transportation cost modeling across drayage, inland, linehaul, and store delivery.
+- CM1 and EBIT profitability analysis by mode and customer.
+- Price competitiveness analysis using a probabilistic win/loss model.
+- Identification of loss-making shipments and repricing opportunities.
+- Customer profitability ownership across five accounts.
 
 ## Tools Used
-- Python (pandas, numpy, matplotlib)
-- Jupyter Notebook
 
-## Files
-- `Maersk.ipynb` — full analysis notebook
-- `landside_pricing_dataset.csv` — simulated shipment dataset (300 records)
+- Python.
+- pandas.
+- numpy.
+- matplotlib.
+- Jupyter Notebook.
+## Note
+
+This is a simulated dataset created for portfolio and interview purposes, not real company data.
