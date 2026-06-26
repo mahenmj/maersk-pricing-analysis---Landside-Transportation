@@ -1,0 +1,301 @@
+shipment_id,customer_id,lane_id,origin,destination,mode_type,equipment_type,distance_km,fuel_price_index,toll_cost,driver_hours,accessorials_cost,vendor_base_rate,fixed_cost_allocation,total_transport_cost,customer_price,revenue,cm1_amount,cm1_margin_pct,overhead_alloc,ebit_amount,ebit_margin_pct,competitor_price,price_diff_pct,win_flag,reason_code
+SHP_1,CUST_1,LANE_5,Oakland,Atlanta,inland,chassis_20ft,1291,1.065,57.02,24.45,100,3298.48,50.64,4515.2,5150.2,5150.2,635.0,0.1233,501.96,133.04,0.0258,5463.0,-0.0573,True,price_acceptable
+SHP_2,CUST_1,LANE_1,Los Angeles,Chicago,linehaul,chassis_20ft,163,1.119,10.11,3.03,150,364.88,52.92,700.84,827.92,827.92,127.08,0.1535,64.31,62.77,0.0758,837.23,-0.0111,True,service_reputation
+SHP_3,CUST_3,LANE_3,Oakland,Atlanta,inland,chassis_40ft,439,1.11,17.49,7.82,0,1169.29,88.81,1647.05,1949.22,1949.22,302.17,0.155,110.44,191.73,0.0984,1874.78,0.0397,False,too_expensive
+SHP_4,CUST_4,LANE_1,Houston,Dallas,inland,truck_53ft,157,0.902,7.81,3.19,150,339.85,50.29,650.72,777.35,777.35,126.63,0.1629,41.23,85.4,0.1099,719.01,0.0811,False,too_expensive
+SHP_5,CUST_4,LANE_5,Houston,Dallas,linehaul,truck_48ft,100,0.959,2.14,1.73,50,191.78,90.16,399.08,488.91,488.91,89.83,0.1837,39.4,50.43,0.1032,472.93,0.0338,False,too_expensive
+SHP_6,CUST_1,LANE_2,Seattle,Dallas,inland,chassis_40ft,971,0.974,37.27,18.21,150,2269.94,46.53,3216.57,3639.26,3639.26,422.7,0.1161,213.23,209.47,0.0576,3649.79,-0.0029,True,service_reputation
+SHP_7,CUST_4,LANE_4,Los Angeles,Dallas,linehaul,chassis_20ft,615,1.095,36.98,10.79,100,1346.62,84.59,1941.67,2353.13,2353.13,411.46,0.1749,195.61,215.85,0.0917,2468.99,-0.0469,True,capacity_available
+SHP_8,CUST_2,LANE_5,Los Angeles,Phoenix,inland,truck_53ft,1453,0.963,40.65,26.62,0,3356.5,112.26,4310.78,4841.87,4841.87,531.09,0.1097,292.8,238.29,0.0492,4777.0,0.0136,True,price_acceptable
+SHP_9,CUST_2,LANE_4,Houston,Dallas,store_delivery,chassis_20ft,149,1.104,11.31,2.74,150,460.65,102.55,851.02,1037.87,1037.87,186.85,0.18,87.79,99.07,0.0955,1115.2,-0.0693,True,capacity_available
+SHP_10,CUST_1,LANE_5,Oakland,Dallas,drayage,truck_48ft,79,1.01,2.28,1.64,100,279.29,72.43,524.54,605.84,605.84,81.3,0.1342,36.31,44.99,0.0743,633.31,-0.0434,True,price_acceptable
+SHP_11,CUST_4,LANE_1,Houston,Atlanta,linehaul,chassis_20ft,369,0.955,28.55,7.29,50,704.67,61.39,1159.31,1420.87,1420.87,261.55,0.1841,76.9,184.66,0.13,1443.59,-0.0157,True,capacity_available
+SHP_12,CUST_2,LANE_1,Seattle,Dallas,drayage,chassis_20ft,36,1.136,1.31,0.61,0,143.08,66.53,245.94,291.46,291.46,45.52,0.1562,23.98,21.53,0.0739,291.95,-0.0017,True,capacity_available
+SHP_13,CUST_2,LANE_4,Seattle,Atlanta,inland,truck_53ft,177,1.034,4.43,3.2,50,439.08,65.03,713.89,879.23,879.23,165.34,0.1881,49.75,115.59,0.1315,908.07,-0.0318,True,capacity_available
+SHP_14,CUST_4,LANE_3,Seattle,Atlanta,inland,truck_53ft,715,1.158,55.46,14.81,100,1986.96,94.13,2813.4,3383.64,3383.64,570.24,0.1685,237.16,333.08,0.0984,3425.77,-0.0123,True,capacity_available
+SHP_15,CUST_1,LANE_3,Houston,Dallas,store_delivery,chassis_40ft,22,1.113,0.58,0.38,150,68.55,64.34,300.56,342.07,342.07,41.51,0.1213,27.57,13.94,0.0407,331.47,0.032,False,lost_on_service
+SHP_16,CUST_3,LANE_2,Houston,Atlanta,store_delivery,chassis_20ft,150,1.089,10.77,3.19,150,457.33,83.54,800.87,998.57,998.57,197.7,0.198,68.36,129.34,0.1295,975.75,0.0234,True,price_acceptable
+SHP_17,CUST_5,LANE_2,Oakland,Chicago,linehaul,truck_53ft,864,1.025,20.55,16.96,0,1770.78,87.63,2438.94,2863.24,2863.24,424.3,0.1482,203.6,220.7,0.0771,2993.83,-0.0436,True,capacity_available
+SHP_18,CUST_5,LANE_2,Oakland,Phoenix,drayage,chassis_20ft,26,0.983,0.59,0.44,0,89.46,107.65,218.11,251.64,251.64,33.53,0.1333,12.6,20.93,0.0832,246.66,0.0202,True,price_acceptable
+SHP_19,CUST_1,LANE_5,Oakland,Dallas,inland,truck_53ft,711,1.054,26.22,12.4,150,1798.36,97.92,2463.17,3056.16,3056.16,593.0,0.194,218.6,374.4,0.1225,2869.93,0.0649,False,too_expensive
+SHP_20,CUST_2,LANE_3,Seattle,Atlanta,store_delivery,truck_53ft,47,0.97,3.05,0.8,0,127.7,43.12,200.1,234.31,234.31,34.2,0.146,21.12,13.09,0.0559,228.36,0.0261,True,price_acceptable
+SHP_21,CUST_3,LANE_5,Oakland,Dallas,linehaul,truck_48ft,1018,1.101,22.3,19.2,100,2242.61,118.95,3341.01,4069.67,4069.67,728.65,0.179,254.07,474.58,0.1166,4094.67,-0.0061,True,service_reputation
+SHP_22,CUST_1,LANE_4,Oakland,Atlanta,drayage,truck_53ft,18,0.902,0.8,0.37,50,56.83,45.49,167.81,209.58,209.58,41.77,0.1993,20.45,21.33,0.1018,197.41,0.0617,False,no_capacity
+SHP_23,CUST_3,LANE_1,Seattle,Phoenix,linehaul,truck_48ft,385,1.032,30.28,6.74,50,794.33,116.27,1213.75,1368.91,1368.91,155.15,0.1133,88.82,66.34,0.0485,1324.68,0.0334,False,lost_on_service
+SHP_24,CUST_1,LANE_3,Houston,Atlanta,linehaul,truck_53ft,1237,0.957,85.69,23.27,150,2367.71,99.03,3463.62,3941.84,3941.84,478.22,0.1213,283.83,194.4,0.0493,3931.03,0.0028,True,service_reputation
+SHP_25,CUST_4,LANE_1,Houston,Chicago,store_delivery,chassis_20ft,36,1.146,2.64,0.75,100,115.51,71.47,317.76,378.38,378.38,60.63,0.1602,21.94,38.68,0.1022,389.96,-0.0297,True,service_reputation
+SHP_26,CUST_2,LANE_5,Los Angeles,Dallas,store_delivery,truck_48ft,169,1.122,9.93,3.57,150,530.86,57.64,901.62,1031.61,1031.61,129.99,0.126,100.62,29.37,0.0285,983.72,0.0487,False,no_capacity
+SHP_27,CUST_4,LANE_3,Oakland,Dallas,linehaul,chassis_40ft,720,1.156,19.4,12.95,0,1664.46,118.5,2311.76,2703.86,2703.86,392.1,0.145,240.0,152.1,0.0563,2635.76,0.0258,True,capacity_available
+SHP_28,CUST_3,LANE_5,Oakland,Dallas,drayage,truck_53ft,32,1.124,2.23,0.58,50,125.86,65.1,265.63,319.46,319.46,53.83,0.1685,21.66,32.17,0.1007,301.5,0.0596,False,lost_on_service
+SHP_29,CUST_4,LANE_5,Oakland,Phoenix,drayage,truck_53ft,72,1.097,3.88,1.22,0,276.53,97.01,441.14,505.15,505.15,64.01,0.1267,37.16,26.85,0.0532,502.93,0.0044,True,capacity_available
+SHP_30,CUST_4,LANE_2,Seattle,Dallas,linehaul,truck_53ft,1338,1.024,32.56,24.95,50,2739.45,59.26,3702.06,4332.47,4332.47,630.41,0.1455,234.08,396.33,0.0915,4087.89,0.0598,False,too_expensive
+SHP_31,CUST_1,LANE_5,Los Angeles,Chicago,store_delivery,truck_53ft,81,1.144,3.29,1.74,0,259.39,99.33,438.68,522.5,522.5,83.82,0.1604,49.23,34.59,0.0662,527.01,-0.0086,True,price_acceptable
+SHP_32,CUST_1,LANE_2,Oakland,Phoenix,store_delivery,truck_53ft,64,0.998,2.71,1.13,100,178.9,87.79,426.61,526.65,526.65,100.05,0.19,27.64,72.41,0.1375,506.18,0.0404,False,no_capacity
+SHP_33,CUST_4,LANE_5,Seattle,Atlanta,inland,chassis_40ft,637,1.027,25.82,10.72,0,1570.28,113.38,2160.32,2575.02,2575.02,414.7,0.161,167.28,247.42,0.0961,2546.54,0.0112,True,capacity_available
+SHP_34,CUST_3,LANE_3,Los Angeles,Atlanta,inland,chassis_20ft,1431,1.137,80.25,28.57,100,3906.24,71.6,5512.02,6210.19,6210.19,698.18,0.1124,435.3,262.88,0.0423,6382.84,-0.027,True,service_reputation
+SHP_35,CUST_5,LANE_4,Oakland,Phoenix,store_delivery,chassis_40ft,90,1.125,4.75,1.87,0,283.45,57.28,428.65,533.99,533.99,105.34,0.1973,45.79,59.55,0.1115,573.05,-0.0682,True,service_reputation
+SHP_36,CUST_4,LANE_1,Houston,Chicago,store_delivery,truck_53ft,32,1.085,1.95,0.58,150,97.26,43.14,311.57,388.55,388.55,76.97,0.1981,24.14,52.84,0.136,398.7,-0.0255,True,service_reputation
+SHP_37,CUST_4,LANE_2,Houston,Phoenix,linehaul,truck_48ft,998,1.048,61.93,17.26,50,2091.23,45.48,2904.4,3591.76,3591.76,687.36,0.1914,201.03,486.33,0.1354,3492.83,0.0283,True,capacity_available
+SHP_38,CUST_5,LANE_3,Houston,Atlanta,store_delivery,chassis_40ft,38,1.002,2.74,0.82,50,106.61,106.21,298.25,362.73,362.73,64.48,0.1778,32.45,32.03,0.0883,340.62,0.0649,False,no_capacity
+SHP_39,CUST_5,LANE_1,Oakland,Dallas,store_delivery,truck_53ft,140,1.068,10.01,2.55,50,418.63,95.7,669.16,766.23,766.23,97.08,0.1267,41.86,55.21,0.0721,770.18,-0.0051,True,service_reputation
+SHP_40,CUST_2,LANE_1,Los Angeles,Atlanta,inland,chassis_20ft,982,1.045,23.02,20.62,0,2462.11,117.59,3387.68,4114.64,4114.64,726.97,0.1767,395.54,331.43,0.0805,4287.27,-0.0403,True,service_reputation
+SHP_41,CUST_5,LANE_3,Seattle,Atlanta,drayage,chassis_20ft,21,1.047,1.09,0.42,150,76.95,60.6,310.07,378.5,378.5,68.43,0.1808,26.22,42.2,0.1115,378.9,-0.0011,True,service_reputation
+SHP_42,CUST_2,LANE_5,Oakland,Dallas,store_delivery,truck_48ft,186,1.168,8.05,3.77,0,608.31,77.98,845.43,983.84,983.84,138.41,0.1407,94.48,43.94,0.0447,907.02,0.0847,False,too_expensive
+SHP_43,CUST_3,LANE_2,Oakland,Phoenix,linehaul,truck_48ft,1243,1.192,63.49,22.93,0,2962.66,48.49,3870.65,4756.53,4756.53,885.88,0.1862,294.86,591.02,0.1243,4524.38,0.0513,False,lost_on_service
+SHP_44,CUST_1,LANE_4,Oakland,Phoenix,inland,truck_48ft,124,0.936,2.75,2.71,150,278.48,115.5,656.22,756.37,756.37,100.15,0.1324,41.62,58.53,0.0774,743.46,0.0174,True,capacity_available
+SHP_45,CUST_3,LANE_2,Los Angeles,Chicago,inland,truck_48ft,187,1.085,13.67,3.86,100,487.02,85.17,874.52,1038.19,1038.19,163.68,0.1577,66.68,96.99,0.0934,1041.05,-0.0027,True,service_reputation
+SHP_46,CUST_3,LANE_2,Los Angeles,Chicago,linehaul,truck_48ft,1402,0.98,42.32,30.19,0,2746.69,113.02,3819.06,4580.38,4580.38,761.32,0.1662,354.16,407.16,0.0889,4396.98,0.0417,False,too_expensive
+SHP_47,CUST_3,LANE_2,Houston,Atlanta,inland,truck_48ft,1378,0.93,28.89,23.18,150,3075.28,40.84,4367.58,5115.45,5115.45,747.87,0.1462,473.42,274.45,0.0537,4989.29,0.0253,True,capacity_available
+SHP_48,CUST_4,LANE_1,Houston,Atlanta,drayage,truck_53ft,14,0.958,0.88,0.29,0,46.92,93.58,154.71,181.36,181.36,26.66,0.147,11.77,14.89,0.0821,185.01,-0.0197,True,price_acceptable
+SHP_49,CUST_1,LANE_4,Seattle,Phoenix,inland,truck_53ft,520,1.199,24.45,10.66,0,1495.92,50.43,2038.4,2336.95,2336.95,298.54,0.1277,206.71,91.83,0.0393,2309.09,0.0121,True,capacity_available
+SHP_50,CUST_5,LANE_2,Los Angeles,Phoenix,store_delivery,truck_48ft,120,0.991,2.67,2.28,150,332.82,106.37,694.84,790.3,790.3,95.46,0.1208,76.48,18.98,0.024,822.09,-0.0387,True,service_reputation
+SHP_51,CUST_5,LANE_2,Oakland,Atlanta,inland,truck_48ft,935,1.089,30.77,17.18,150,2442.71,103.84,3470.13,4219.72,4219.72,749.59,0.1776,224.45,525.14,0.1244,4143.58,0.0184,True,capacity_available
+SHP_52,CUST_2,LANE_4,Oakland,Phoenix,linehaul,truck_48ft,947,1.115,74.43,18.69,100,2112.38,108.04,3159.26,3842.65,3842.65,683.39,0.1778,296.38,387.01,0.1007,3937.08,-0.024,True,service_reputation
+SHP_53,CUST_1,LANE_4,Los Angeles,Dallas,linehaul,truck_53ft,533,1.123,17.96,11.62,150,1196.81,93.1,1847.94,2098.1,2098.1,250.16,0.1192,204.98,45.18,0.0215,2220.82,-0.0553,True,service_reputation
+SHP_54,CUST_2,LANE_2,Los Angeles,Chicago,inland,chassis_20ft,1273,0.923,47.02,23.67,0,2820.7,103.79,3946.58,4680.78,4680.78,734.2,0.1569,409.65,324.55,0.0693,4539.02,0.0312,False,no_capacity
+SHP_55,CUST_2,LANE_1,Houston,Chicago,store_delivery,truck_53ft,130,1.115,6.06,2.2,100,405.94,95.13,710.94,876.07,876.07,165.13,0.1885,87.47,77.66,0.0887,865.82,0.0118,True,capacity_available
+SHP_56,CUST_5,LANE_4,Seattle,Phoenix,linehaul,truck_48ft,1369,1.067,31.87,22.98,150,2922.29,107.16,4085.78,4921.77,4921.77,835.99,0.1699,397.45,438.54,0.0891,4666.37,0.0547,False,no_capacity
+SHP_57,CUST_5,LANE_4,Seattle,Dallas,store_delivery,truck_53ft,87,1.013,6.02,1.93,0,246.71,76.02,392.68,452.8,452.8,60.13,0.1328,30.61,29.52,0.0652,467.7,-0.0319,True,price_acceptable
+SHP_58,CUST_1,LANE_4,Los Angeles,Atlanta,inland,truck_53ft,1153,0.912,24.57,20.36,0,2523.16,114.87,3359.95,3962.79,3962.79,602.84,0.1521,255.65,347.18,0.0876,4002.06,-0.0098,True,price_acceptable
+SHP_59,CUST_1,LANE_5,Seattle,Dallas,store_delivery,truck_48ft,127,1.017,9.3,2.17,0,361.56,44.58,519.06,644.17,644.17,125.11,0.1942,33.84,91.27,0.1417,649.04,-0.0075,True,price_acceptable
+SHP_60,CUST_4,LANE_5,Houston,Dallas,inland,chassis_20ft,1180,0.984,52.27,19.67,50,2785.85,75.8,3822.37,4643.8,4643.8,821.43,0.1769,315.26,506.17,0.109,4319.77,0.075,False,too_expensive
+SHP_61,CUST_2,LANE_5,Houston,Atlanta,store_delivery,chassis_20ft,134,0.978,5.47,2.35,150,366.8,47.31,688.88,786.0,786.0,97.12,0.1236,77.06,20.07,0.0255,790.73,-0.006,True,price_acceptable
+SHP_62,CUST_3,LANE_2,Seattle,Chicago,store_delivery,chassis_20ft,36,0.964,2.59,0.61,0,97.17,44.46,170.04,193.3,193.3,23.26,0.1203,10.22,13.04,0.0675,203.97,-0.0523,True,price_acceptable
+SHP_63,CUST_1,LANE_4,Seattle,Phoenix,inland,truck_53ft,1269,0.927,76.24,27.0,50,2823.78,67.76,3888.81,4573.76,4573.76,684.96,0.1498,407.47,277.48,0.0607,4562.18,0.0025,True,price_acceptable
+SHP_64,CUST_3,LANE_3,Seattle,Dallas,store_delivery,chassis_40ft,84,0.956,5.46,1.73,50,224.91,80.89,420.99,495.89,495.89,74.9,0.151,48.77,26.13,0.0527,501.54,-0.0113,True,service_reputation
+SHP_65,CUST_3,LANE_1,Los Angeles,Chicago,store_delivery,chassis_40ft,73,1.178,4.35,1.44,100,240.73,109.36,513.27,591.15,591.15,77.87,0.1317,58.13,19.74,0.0334,634.48,-0.0683,True,price_acceptable
+SHP_66,CUST_4,LANE_4,Seattle,Phoenix,store_delivery,truck_53ft,175,0.996,9.02,3.16,100,488.19,105.74,810.07,921.91,921.91,111.84,0.1213,80.54,31.3,0.034,855.23,0.078,False,lost_on_service
+SHP_67,CUST_5,LANE_4,Oakland,Chicago,inland,chassis_40ft,1007,1.054,67.23,19.06,100,2547.85,94.5,3642.98,4419.22,4419.22,776.24,0.1757,355.16,421.08,0.0953,4128.32,0.0705,False,no_capacity
+SHP_68,CUST_2,LANE_2,Oakland,Dallas,inland,chassis_20ft,517,1.152,11.28,8.97,0,1430.01,94.17,1934.2,2196.23,2196.23,262.03,0.1193,117.38,144.65,0.0659,2190.45,0.0026,True,price_acceptable
+SHP_69,CUST_5,LANE_2,Houston,Chicago,linehaul,chassis_40ft,1175,0.964,52.49,21.15,50,2265.55,109.3,3217.94,3968.7,3968.7,750.76,0.1892,281.45,469.31,0.1183,3933.39,0.009,True,price_acceptable
+SHP_70,CUST_3,LANE_4,Los Angeles,Phoenix,drayage,chassis_40ft,55,1.153,2.29,0.99,0,222.04,40.79,309.79,363.44,363.44,53.65,0.1476,24.16,29.5,0.0812,374.68,-0.03,True,service_reputation
+SHP_71,CUST_3,LANE_3,Seattle,Phoenix,inland,chassis_40ft,827,1.173,58.81,18.06,0,2328.02,113.21,3268.64,3727.32,3727.32,458.68,0.1231,326.48,132.2,0.0355,3768.04,-0.0108,True,price_acceptable
+SHP_72,CUST_3,LANE_3,Houston,Dallas,inland,chassis_20ft,938,0.952,49.54,16.84,50,2143.7,79.36,2846.29,3302.64,3302.64,456.35,0.1382,195.15,261.2,0.0791,3304.83,-0.0007,True,price_acceptable
+SHP_73,CUST_2,LANE_2,Houston,Dallas,store_delivery,chassis_20ft,58,1.178,4.18,1.04,50,191.36,111.98,402.49,483.67,483.67,81.18,0.1678,34.79,46.39,0.0959,447.98,0.0797,False,too_expensive
+SHP_74,CUST_1,LANE_4,Los Angeles,Chicago,inland,chassis_20ft,232,0.91,13.53,5.02,50,506.86,50.67,795.29,962.23,962.23,166.94,0.1735,86.36,80.58,0.0837,910.4,0.0569,False,lost_on_service
+SHP_75,CUST_3,LANE_2,Houston,Chicago,inland,truck_53ft,780,0.98,58.22,15.14,150,1834.83,65.26,2761.68,3316.22,3316.22,554.54,0.1672,202.27,352.27,0.1062,3286.95,0.0089,True,capacity_available
+SHP_76,CUST_5,LANE_3,Oakland,Dallas,linehaul,chassis_40ft,837,1.191,39.54,15.91,50,1993.48,91.13,2814.47,3276.96,3276.96,462.49,0.1411,327.31,135.17,0.0412,3152.98,0.0393,False,too_expensive
+SHP_77,CUST_4,LANE_3,Los Angeles,Chicago,inland,chassis_20ft,1092,1.151,85.69,18.31,50,3016.31,110.35,3981.64,4725.61,4725.61,743.97,0.1574,363.68,380.29,0.0805,4540.44,0.0408,False,too_expensive
+SHP_78,CUST_1,LANE_3,Oakland,Phoenix,linehaul,chassis_20ft,1174,0.929,28.0,21.78,0,2181.54,77.52,2956.21,3667.8,3667.8,711.6,0.194,300.96,410.64,0.112,3557.27,0.0311,False,lost_on_service
+SHP_79,CUST_5,LANE_1,Seattle,Chicago,store_delivery,truck_53ft,150,1.043,6.2,2.72,150,438.21,44.57,754.74,878.97,878.97,124.23,0.1413,73.26,50.97,0.058,823.07,0.0679,False,too_expensive
+SHP_80,CUST_3,LANE_4,Seattle,Atlanta,drayage,chassis_40ft,64,1.048,4.62,1.14,0,234.8,107.11,393.94,486.13,486.13,92.19,0.1896,30.22,61.97,0.1275,490.06,-0.008,True,service_reputation
+SHP_81,CUST_5,LANE_3,Oakland,Atlanta,drayage,chassis_40ft,29,1.054,1.63,0.53,150,107.0,100.53,380.69,455.2,455.2,74.51,0.1637,27.01,47.5,0.1044,432.5,0.0525,False,lost_on_service
+SHP_82,CUST_5,LANE_1,Houston,Dallas,store_delivery,truck_48ft,175,0.933,5.63,2.92,0,457.1,61.94,644.05,723.57,723.57,79.51,0.1099,62.78,16.74,0.0231,738.11,-0.0197,True,capacity_available
+SHP_83,CUST_5,LANE_5,Oakland,Atlanta,inland,chassis_40ft,972,0.938,27.01,17.63,150,2187.78,81.03,3096.87,3606.7,3606.7,509.83,0.1414,239.59,270.25,0.0749,3665.71,-0.0161,True,service_reputation
+SHP_84,CUST_5,LANE_2,Oakland,Chicago,inland,chassis_20ft,1125,0.917,72.96,19.48,100,2475.53,116.64,3533.98,3973.41,3973.41,439.43,0.1106,313.86,125.57,0.0316,3761.39,0.0564,False,lost_on_service
+SHP_85,CUST_3,LANE_4,Los Angeles,Chicago,drayage,truck_53ft,33,0.943,2.16,0.63,50,108.95,52.54,239.98,290.1,290.1,50.12,0.1728,23.12,27.0,0.0931,301.92,-0.0392,True,capacity_available
+SHP_86,CUST_4,LANE_3,Los Angeles,Atlanta,drayage,truck_48ft,50,1.006,2.69,1.02,50,176.11,55.73,330.18,410.46,410.46,80.28,0.1956,24.74,55.54,0.1353,417.93,-0.0179,True,service_reputation
+SHP_87,CUST_5,LANE_4,Houston,Phoenix,drayage,truck_53ft,69,0.956,2.64,1.49,0,230.99,81.06,378.39,429.07,429.07,50.68,0.1181,30.54,20.14,0.0469,425.8,0.0077,True,price_acceptable
+SHP_88,CUST_4,LANE_5,Los Angeles,Phoenix,store_delivery,chassis_40ft,55,0.971,1.64,1.17,0,149.54,94.61,294.38,353.76,353.76,59.39,0.1679,22.4,36.99,0.1046,327.67,0.0796,False,too_expensive
+SHP_89,CUST_1,LANE_4,Seattle,Atlanta,drayage,chassis_20ft,58,0.949,3.57,1.05,50,192.66,50.54,341.99,422.47,422.47,80.48,0.1905,26.93,53.54,0.1267,403.79,0.0463,False,no_capacity
+SHP_90,CUST_5,LANE_2,Houston,Phoenix,store_delivery,truck_53ft,154,0.965,3.8,2.87,0,416.25,53.98,620.43,765.44,765.44,145.0,0.1894,66.49,78.51,0.1026,735.17,0.0412,False,lost_on_service
+SHP_91,CUST_1,LANE_1,Los Angeles,Dallas,inland,truck_48ft,1020,0.977,64.43,22.46,150,2392.05,47.64,3431.86,4244.38,4244.38,812.52,0.1914,410.73,401.79,0.0947,4570.22,-0.0713,True,service_reputation
+SHP_92,CUST_2,LANE_5,Oakland,Chicago,inland,chassis_20ft,669,0.902,45.71,14.5,0,1448.43,80.23,2240.49,2740.93,2740.93,500.44,0.1826,155.65,344.79,0.1258,2950.31,-0.071,True,price_acceptable
+SHP_93,CUST_2,LANE_1,Oakland,Atlanta,inland,truck_48ft,303,1.135,9.76,6.2,0,825.02,90.37,1186.94,1393.59,1393.59,206.65,0.1483,81.28,125.36,0.09,1501.99,-0.0722,True,capacity_available
+SHP_94,CUST_1,LANE_2,Los Angeles,Chicago,drayage,chassis_40ft,73,1.118,4.9,1.5,150,285.71,96.69,609.95,741.18,741.18,131.23,0.1771,43.51,87.72,0.1184,724.72,0.0227,True,price_acceptable
+SHP_95,CUST_3,LANE_5,Seattle,Chicago,drayage,truck_48ft,33,1.03,2.24,0.61,0,118.92,59.9,212.89,263.63,263.63,50.74,0.1925,15.22,35.52,0.1347,268.98,-0.0199,True,service_reputation
+SHP_96,CUST_4,LANE_5,Seattle,Chicago,inland,chassis_20ft,354,0.952,20.29,6.08,0,808.67,93.15,1152.1,1341.78,1341.78,189.68,0.1414,68.37,121.31,0.0904,1382.53,-0.0295,True,capacity_available
+SHP_97,CUST_2,LANE_3,Oakland,Atlanta,store_delivery,truck_48ft,189,1.125,12.24,4.01,150,595.44,105.05,1028.47,1230.56,1230.56,202.09,0.1642,74.5,127.59,0.1037,1178.72,0.044,False,too_expensive
+SHP_98,CUST_5,LANE_1,Oakland,Dallas,inland,chassis_20ft,368,0.909,19.31,8.04,0,802.61,68.7,1164.1,1454.46,1454.46,290.37,0.1996,107.64,182.72,0.1256,1451.18,0.0023,True,service_reputation
+SHP_99,CUST_2,LANE_1,Oakland,Chicago,inland,truck_48ft,205,1.116,11.31,3.91,0,548.88,60.03,746.28,916.52,916.52,170.24,0.1858,67.05,103.19,0.1126,914.59,0.0021,True,capacity_available
+SHP_100,CUST_3,LANE_2,Los Angeles,Dallas,drayage,truck_53ft,19,1.133,0.63,0.4,0,75.37,114.61,212.55,241.52,241.52,28.97,0.1199,16.69,12.28,0.0508,223.29,0.0816,False,no_capacity
+SHP_101,CUST_1,LANE_3,Seattle,Chicago,linehaul,truck_53ft,1495,1.189,116.41,30.3,100,3554.1,89.16,5177.48,6399.48,6399.48,1221.99,0.191,345.13,876.86,0.137,6226.35,0.0278,True,price_acceptable
+SHP_102,CUST_3,LANE_4,Seattle,Atlanta,inland,truck_48ft,128,0.972,4.72,2.5,0,298.51,48.29,459.21,556.25,556.25,97.04,0.1744,36.14,60.9,0.1095,535.68,0.0384,False,lost_on_service
+SHP_103,CUST_3,LANE_2,Los Angeles,Atlanta,inland,truck_48ft,892,0.909,24.35,16.37,0,1946.96,104.87,2716.99,3184.44,3184.44,467.45,0.1468,310.03,157.42,0.0494,3136.78,0.0152,True,price_acceptable
+SHP_104,CUST_1,LANE_3,Houston,Chicago,store_delivery,chassis_20ft,95,1.144,3.14,1.79,150,304.33,43.99,583.02,664.35,664.35,81.32,0.1224,51.07,30.25,0.0455,672.4,-0.012,True,service_reputation
+SHP_105,CUST_5,LANE_3,Houston,Phoenix,linehaul,chassis_20ft,1466,0.977,91.01,32.42,0,2865.54,41.06,4299.89,5118.86,5118.86,818.97,0.16,373.56,445.4,0.087,5118.01,0.0002,True,service_reputation
+SHP_106,CUST_4,LANE_2,Los Angeles,Chicago,drayage,chassis_40ft,35,1.046,1.01,0.64,50,128.08,88.62,297.26,336.16,336.16,38.91,0.1157,27.62,11.29,0.0336,350.28,-0.0403,True,service_reputation
+SHP_107,CUST_5,LANE_1,Seattle,Chicago,linehaul,chassis_40ft,920,1.18,29.8,16.42,0,2171.8,83.7,2866.58,3243.91,3243.91,377.33,0.1163,229.99,147.34,0.0454,3427.28,-0.0535,True,capacity_available
+SHP_108,CUST_1,LANE_4,Los Angeles,Phoenix,inland,chassis_20ft,789,1.087,32.64,13.88,100,2058.23,65.6,2721.74,3318.38,3318.38,596.63,0.1798,299.03,297.61,0.0897,3257.37,0.0187,True,service_reputation
+SHP_109,CUST_5,LANE_4,Seattle,Phoenix,linehaul,chassis_40ft,573,1.11,37.55,12.3,0,1272.18,77.96,1751.58,2044.08,2044.08,292.5,0.1431,138.87,153.63,0.0752,2053.66,-0.0047,True,service_reputation
+SHP_110,CUST_3,LANE_5,Seattle,Phoenix,drayage,truck_48ft,32,1.002,0.75,0.6,0,112.18,85.82,224.02,257.85,257.85,33.82,0.1312,23.13,10.7,0.0415,257.29,0.0022,True,price_acceptable
+SHP_111,CUST_4,LANE_2,Oakland,Phoenix,drayage,chassis_20ft,25,0.951,1.19,0.5,50,83.18,68.52,224.92,264.99,264.99,40.07,0.1512,26.04,14.03,0.0529,259.79,0.02,True,price_acceptable
+SHP_112,CUST_1,LANE_3,Houston,Dallas,inland,truck_53ft,536,0.906,24.19,9.46,0,1165.92,113.37,1736.05,2076.04,2076.04,340.0,0.1638,151.82,188.17,0.0906,2181.77,-0.0485,True,service_reputation
+SHP_113,CUST_2,LANE_3,Seattle,Dallas,inland,chassis_40ft,372,1.056,12.67,7.94,150,942.58,65.72,1501.46,1688.4,1688.4,186.94,0.1107,95.16,91.78,0.0544,1800.43,-0.0622,True,price_acceptable
+SHP_114,CUST_4,LANE_3,Houston,Phoenix,store_delivery,truck_48ft,125,1.058,4.02,2.68,50,370.45,102.94,660.49,783.52,783.52,123.03,0.157,50.93,72.09,0.092,739.8,0.0591,False,no_capacity
+SHP_115,CUST_3,LANE_5,Los Angeles,Atlanta,drayage,truck_48ft,35,0.994,2.0,0.64,0,121.77,82.63,234.77,277.33,277.33,42.56,0.1535,27.47,15.09,0.0544,288.0,-0.037,True,capacity_available
+SHP_116,CUST_5,LANE_2,Seattle,Chicago,inland,truck_48ft,217,1.021,17.28,4.56,100,531.78,45.03,854.8,978.19,978.19,123.39,0.1261,50.5,72.9,0.0745,1016.28,-0.0375,True,capacity_available
+SHP_117,CUST_3,LANE_5,Houston,Phoenix,store_delivery,chassis_40ft,69,1.119,5.06,1.5,0,216.19,91.96,369.64,428.54,428.54,58.9,0.1374,31.28,27.62,0.0644,413.41,0.0366,False,too_expensive
+SHP_118,CUST_3,LANE_2,Oakland,Chicago,inland,chassis_20ft,495,0.951,15.77,9.94,150,1130.08,117.61,1725.08,1937.02,1937.02,211.94,0.1094,174.59,37.35,0.0193,2026.29,-0.0441,True,capacity_available
+SHP_119,CUST_3,LANE_2,Houston,Dallas,store_delivery,chassis_40ft,121,1.135,9.23,2.18,0,384.48,116.41,606.07,726.94,726.94,120.86,0.1663,36.39,84.47,0.1162,772.76,-0.0593,True,capacity_available
+SHP_120,CUST_2,LANE_3,Houston,Dallas,inland,chassis_40ft,478,1.001,21.1,10.44,0,1148.54,59.48,1692.65,2100.77,2100.77,408.12,0.1943,116.05,292.07,0.139,2022.77,0.0386,False,no_capacity
+SHP_121,CUST_2,LANE_1,Los Angeles,Chicago,linehaul,chassis_20ft,1035,0.957,43.47,22.22,150,1981.23,102.45,3036.77,3555.24,3555.24,518.47,0.1458,280.61,237.86,0.0669,3789.22,-0.0618,True,capacity_available
+SHP_122,CUST_4,LANE_2,Oakland,Phoenix,linehaul,chassis_40ft,479,1.095,34.49,8.2,150,1049.22,98.34,1604.14,1900.96,1900.96,296.83,0.1561,134.51,162.32,0.0854,1800.35,0.0559,False,too_expensive
+SHP_123,CUST_2,LANE_1,Houston,Chicago,store_delivery,truck_53ft,166,1.168,6.18,3.33,0,542.68,89.57,776.92,937.17,937.17,160.24,0.171,86.05,74.2,0.0792,894.5,0.0477,False,lost_on_service
+SHP_124,CUST_3,LANE_3,Los Angeles,Dallas,inland,chassis_20ft,869,0.915,62.41,17.34,100,1908.86,114.27,2853.1,3219.82,3219.82,366.71,0.1139,249.44,117.27,0.0364,3266.63,-0.0143,True,capacity_available
+SHP_125,CUST_5,LANE_4,Los Angeles,Atlanta,inland,chassis_40ft,1250,1.148,67.2,22.15,50,3444.18,51.33,4489.93,5088.55,5088.55,598.62,0.1176,390.66,207.95,0.0409,4750.79,0.0711,False,too_expensive
+SHP_126,CUST_3,LANE_2,Seattle,Atlanta,drayage,truck_48ft,34,0.988,2.05,0.61,0,117.59,75.41,223.32,264.21,264.21,40.89,0.1548,23.49,17.4,0.0659,259.24,0.0192,True,service_reputation
+SHP_127,CUST_5,LANE_3,Houston,Phoenix,inland,chassis_40ft,1202,1.143,50.13,22.74,100,3296.29,67.37,4467.17,5116.16,5116.16,648.99,0.1269,399.56,249.43,0.0488,4964.37,0.0306,False,too_expensive
+SHP_128,CUST_2,LANE_3,Los Angeles,Dallas,drayage,chassis_40ft,66,1.028,3.07,1.2,0,237.44,44.22,337.12,379.22,379.22,42.1,0.111,32.56,9.54,0.0252,381.53,-0.0061,True,capacity_available
+SHP_129,CUST_5,LANE_2,Oakland,Atlanta,store_delivery,chassis_40ft,148,0.957,7.05,3.0,50,396.57,105.96,688.72,808.77,808.77,120.05,0.1484,43.39,76.65,0.0948,779.48,0.0376,False,no_capacity
+SHP_130,CUST_1,LANE_2,Los Angeles,Phoenix,linehaul,chassis_20ft,495,0.903,14.32,8.74,0,894.0,115.6,1350.99,1631.41,1631.41,280.42,0.1719,86.86,193.56,0.1186,1622.47,0.0055,True,price_acceptable
+SHP_131,CUST_2,LANE_5,Seattle,Dallas,inland,chassis_40ft,322,1.051,7.6,5.48,150,812.25,112.98,1321.35,1515.88,1515.88,194.52,0.1283,78.78,115.74,0.0764,1574.4,-0.0372,True,capacity_available
+SHP_132,CUST_5,LANE_2,Seattle,Chicago,drayage,truck_53ft,37,1.107,2.17,0.63,50,143.36,106.66,334.14,392.78,392.78,58.64,0.1493,32.38,26.26,0.0668,407.06,-0.0351,True,price_acceptable
+SHP_133,CUST_1,LANE_2,Houston,Phoenix,inland,truck_48ft,851,1.033,63.93,16.49,50,2109.99,116.82,3065.85,3696.94,3696.94,631.09,0.1707,281.47,349.62,0.0946,3415.14,0.0825,False,lost_on_service
+SHP_134,CUST_5,LANE_5,Los Angeles,Phoenix,inland,chassis_20ft,1455,0.957,40.07,29.3,100,3341.34,103.79,4863.88,5617.9,5617.9,754.02,0.1342,530.17,223.85,0.0398,5291.88,0.0616,False,lost_on_service
+SHP_135,CUST_1,LANE_5,Oakland,Phoenix,store_delivery,truck_53ft,115,1.048,3.55,2.05,0,337.41,101.97,540.66,645.05,645.05,104.39,0.1618,50.08,54.31,0.0842,605.29,0.0657,False,no_capacity
+SHP_136,CUST_5,LANE_3,Houston,Atlanta,inland,chassis_20ft,1416,1.062,110.63,27.09,50,3608.28,119.75,5071.89,5964.26,5964.26,892.37,0.1496,393.73,498.64,0.0836,6352.32,-0.0611,True,capacity_available
+SHP_137,CUST_1,LANE_5,Seattle,Atlanta,inland,chassis_40ft,1236,0.98,75.6,20.87,0,2905.79,108.16,3968.82,4629.07,4629.07,660.25,0.1426,291.95,368.29,0.0796,4959.84,-0.0667,True,capacity_available
+SHP_138,CUST_2,LANE_3,Oakland,Chicago,linehaul,truck_53ft,801,1.095,52.25,14.74,100,1754.17,78.6,2494.14,2995.3,2995.3,501.16,0.1673,151.27,349.89,0.1168,2849.05,0.0513,False,lost_on_service
+SHP_139,CUST_4,LANE_3,Seattle,Phoenix,drayage,truck_53ft,21,0.92,1.31,0.43,0,67.6,69.75,157.6,177.04,177.04,19.44,0.1098,10.82,8.63,0.0487,184.98,-0.0429,True,service_reputation
+SHP_140,CUST_1,LANE_2,Houston,Atlanta,drayage,chassis_40ft,44,1.142,2.92,0.75,50,175.91,102.63,364.03,447.73,447.73,83.7,0.1869,40.28,43.42,0.097,448.34,-0.0014,True,service_reputation
+SHP_141,CUST_5,LANE_2,Seattle,Atlanta,drayage,chassis_20ft,43,0.968,1.41,0.76,150,145.64,98.84,436.15,493.03,493.03,56.88,0.1154,33.51,23.36,0.0474,521.3,-0.0542,True,price_acceptable
+SHP_142,CUST_3,LANE_5,Oakland,Atlanta,drayage,chassis_20ft,79,1.05,1.87,1.42,100,290.3,117.39,575.1,664.19,664.19,89.09,0.1341,49.64,39.45,0.0594,620.2,0.0709,False,no_capacity
+SHP_143,CUST_1,LANE_3,Oakland,Chicago,inland,chassis_40ft,238,1.0,12.21,4.43,100,571.33,62.82,888.2,1058.74,1058.74,170.55,0.1611,53.02,117.53,0.111,1022.02,0.0359,False,lost_on_service
+SHP_144,CUST_5,LANE_1,Oakland,Dallas,drayage,truck_48ft,14,0.957,0.97,0.3,150,46.89,83.98,294.56,347.22,347.22,52.67,0.1517,20.3,32.37,0.0932,354.82,-0.0214,True,service_reputation
+SHP_145,CUST_4,LANE_5,Houston,Phoenix,store_delivery,chassis_20ft,38,1.183,2.45,0.82,0,125.83,97.52,257.8,298.36,298.36,40.55,0.1359,18.65,21.91,0.0734,291.49,0.0235,True,service_reputation
+SHP_146,CUST_3,LANE_3,Seattle,Dallas,inland,chassis_20ft,802,0.935,28.17,13.64,0,1800.17,115.56,2482.43,2848.83,2848.83,366.4,0.1286,216.53,149.87,0.0526,2837.31,0.0041,True,service_reputation
+SHP_147,CUST_3,LANE_4,Oakland,Phoenix,store_delivery,chassis_40ft,62,0.959,1.56,1.15,150,166.41,98.28,451.53,517.43,517.43,65.9,0.1274,35.48,30.43,0.0588,517.57,-0.0003,True,capacity_available
+SHP_148,CUST_5,LANE_3,Oakland,Dallas,store_delivery,truck_48ft,55,0.986,1.33,1.1,0,151.81,51.07,250.26,301.95,301.95,51.69,0.1712,23.02,28.67,0.095,308.68,-0.0218,True,price_acceptable
+SHP_149,CUST_5,LANE_1,Oakland,Phoenix,inland,truck_48ft,370,1.138,18.38,6.33,50,1010.76,111.7,1478.09,1787.23,1787.23,309.13,0.173,166.12,143.01,0.08,1669.63,0.0704,False,lost_on_service
+SHP_150,CUST_2,LANE_4,Los Angeles,Phoenix,inland,chassis_40ft,183,1.025,6.42,3.67,0,450.35,68.72,681.32,834.68,834.68,153.36,0.1837,57.93,95.43,0.1143,874.2,-0.0452,True,price_acceptable
+SHP_151,CUST_4,LANE_4,Oakland,Phoenix,inland,truck_53ft,1409,0.984,82.82,24.25,50,3326.63,108.7,4318.62,5192.68,5192.68,874.05,0.1683,325.37,548.68,0.1057,5238.62,-0.0088,True,service_reputation
+SHP_152,CUST_1,LANE_1,Seattle,Atlanta,linehaul,chassis_20ft,1288,1.059,56.74,26.04,150,2727.65,103.21,3944.76,4529.81,4529.81,585.05,0.1292,379.83,205.22,0.0453,4749.57,-0.0463,True,service_reputation
+SHP_153,CUST_2,LANE_3,Los Angeles,Phoenix,drayage,truck_48ft,11,0.991,0.24,0.24,50,38.17,105.44,203.31,252.28,252.28,48.97,0.1941,19.49,29.48,0.1169,258.8,-0.0252,True,price_acceptable
+SHP_154,CUST_4,LANE_1,Los Angeles,Phoenix,inland,truck_48ft,815,0.939,16.92,17.23,150,1836.95,111.11,2832.27,3446.72,3446.72,614.45,0.1783,178.39,436.05,0.1265,3488.12,-0.0119,True,service_reputation
+SHP_155,CUST_5,LANE_5,Los Angeles,Chicago,inland,chassis_20ft,799,0.967,60.73,15.93,100,1854.47,54.23,2742.11,3387.91,3387.91,645.79,0.1906,244.25,401.54,0.1185,3194.31,0.0606,False,lost_on_service
+SHP_156,CUST_3,LANE_1,Houston,Atlanta,drayage,chassis_20ft,19,1.198,1.15,0.41,50,79.69,84.63,232.31,269.38,269.38,37.07,0.1376,14.63,22.43,0.0833,247.89,0.0867,False,too_expensive
+SHP_157,CUST_3,LANE_1,Oakland,Atlanta,inland,chassis_20ft,1132,0.986,41.69,23.88,150,2678.91,112.46,3879.67,4837.03,4837.03,957.35,0.1979,298.03,659.32,0.1363,5132.12,-0.0575,True,service_reputation
+SHP_158,CUST_4,LANE_5,Houston,Phoenix,inland,chassis_40ft,815,1.029,30.35,14.54,150,2012.62,51.06,2806.52,3298.77,3298.77,492.25,0.1492,256.04,236.21,0.0716,3350.96,-0.0156,True,price_acceptable
+SHP_159,CUST_4,LANE_2,Seattle,Dallas,inland,chassis_40ft,209,1.155,11.08,3.64,100,579.44,77.39,908.72,1051.51,1051.51,142.78,0.1358,103.13,39.65,0.0377,1020.02,0.0309,False,no_capacity
+SHP_160,CUST_1,LANE_1,Oakland,Dallas,inland,chassis_20ft,1091,1.039,50.18,19.14,0,2721.32,65.32,3563.66,4349.87,4349.87,786.21,0.1807,228.82,557.39,0.1281,4010.8,0.0845,False,too_expensive
+SHP_161,CUST_2,LANE_5,Los Angeles,Phoenix,store_delivery,truck_48ft,141,1.158,8.82,2.7,0,457.12,99.82,705.36,811.47,811.47,106.11,0.1308,43.0,63.1,0.0778,813.76,-0.0028,True,price_acceptable
+SHP_162,CUST_5,LANE_2,Los Angeles,Atlanta,drayage,chassis_40ft,17,1.181,0.71,0.33,50,70.24,86.85,223.0,266.91,266.91,43.9,0.1645,22.94,20.96,0.0785,277.38,-0.0378,True,service_reputation
+SHP_163,CUST_1,LANE_3,Seattle,Chicago,linehaul,chassis_40ft,544,1.02,38.79,10.57,0,1110.17,48.58,1627.11,1929.86,1929.86,302.74,0.1569,167.46,135.28,0.0701,2081.8,-0.073,True,capacity_available
+SHP_164,CUST_2,LANE_1,Seattle,Atlanta,inland,truck_48ft,780,0.96,49.07,15.69,0,1797.47,80.25,2600.19,2940.23,2940.23,340.05,0.1157,238.16,101.89,0.0347,2865.07,0.0262,True,capacity_available
+SHP_165,CUST_1,LANE_2,Oakland,Phoenix,inland,chassis_40ft,477,0.98,31.5,9.92,100,1121.53,114.54,1775.94,2036.82,2036.82,260.87,0.1281,138.32,122.55,0.0602,1922.56,0.0594,False,lost_on_service
+SHP_166,CUST_3,LANE_5,Los Angeles,Atlanta,drayage,truck_48ft,29,1.015,1.44,0.5,0,103.03,82.35,209.41,247.65,247.65,38.24,0.1544,20.81,17.43,0.0704,261.87,-0.0543,True,capacity_available
+SHP_167,CUST_3,LANE_3,Houston,Atlanta,inland,truck_53ft,327,1.141,23.25,6.26,150,895.12,114.16,1374.3,1655.07,1655.07,280.77,0.1696,114.17,166.6,0.1007,1722.61,-0.0392,True,capacity_available
+SHP_168,CUST_4,LANE_4,Houston,Phoenix,linehaul,truck_53ft,535,1.07,30.46,11.73,0,1144.65,97.76,1669.14,2056.45,2056.45,387.31,0.1883,170.08,217.24,0.1056,2060.27,-0.0019,True,service_reputation
+SHP_169,CUST_3,LANE_3,Los Angeles,Dallas,drayage,truck_48ft,37,1.13,1.85,0.75,0,146.32,40.38,223.51,252.43,252.43,28.92,0.1146,16.29,12.64,0.0501,267.87,-0.0576,True,service_reputation
+SHP_170,CUST_5,LANE_3,Seattle,Phoenix,store_delivery,truck_48ft,62,1.034,1.27,1.08,50,179.51,116.48,398.39,473.72,473.72,75.33,0.159,33.15,42.17,0.089,508.11,-0.0677,True,capacity_available
+SHP_171,CUST_2,LANE_4,Oakland,Atlanta,inland,truck_48ft,929,1.024,24.84,20.14,0,2283.78,99.89,3178.51,3902.04,3902.04,723.53,0.1854,345.57,377.95,0.0969,3614.11,0.0797,False,lost_on_service
+SHP_172,CUST_4,LANE_1,Houston,Dallas,inland,truck_53ft,924,0.991,42.29,17.75,150,2197.56,59.2,3204.9,3624.22,3624.22,419.33,0.1157,349.47,69.86,0.0193,3670.46,-0.0126,True,price_acceptable
+SHP_173,CUST_2,LANE_3,Oakland,Dallas,linehaul,chassis_20ft,1444,0.912,45.06,25.13,50,2632.82,82.68,3678.97,4120.56,4120.56,441.59,0.1072,255.73,185.86,0.0451,3928.2,0.049,False,no_capacity
+SHP_174,CUST_1,LANE_2,Los Angeles,Atlanta,inland,truck_48ft,1146,1.051,82.44,23.57,100,2891.44,58.25,3998.7,4863.23,4863.23,864.53,0.1778,318.48,546.05,0.1123,5142.38,-0.0543,True,price_acceptable
+SHP_175,CUST_5,LANE_3,Houston,Chicago,store_delivery,truck_53ft,171,0.946,10.26,3.47,100,452.79,109.07,814.22,1008.99,1008.99,194.77,0.193,100.74,94.03,0.0932,953.08,0.0587,False,no_capacity
+SHP_176,CUST_4,LANE_1,Houston,Dallas,drayage,chassis_20ft,73,0.905,5.55,1.58,50,231.33,56.41,404.96,479.2,479.2,74.24,0.1549,45.0,29.23,0.061,481.29,-0.0043,True,capacity_available
+SHP_177,CUST_3,LANE_1,Oakland,Chicago,inland,chassis_40ft,388,1.037,20.7,7.6,0,965.22,94.17,1423.87,1738.84,1738.84,314.97,0.1811,98.33,216.64,0.1246,1766.92,-0.0159,True,capacity_available
+SHP_178,CUST_2,LANE_2,Seattle,Chicago,linehaul,chassis_20ft,596,0.904,12.62,10.0,150,1077.6,85.92,1679.29,2019.96,2019.96,340.67,0.1686,157.22,183.44,0.0908,2096.97,-0.0367,True,capacity_available
+SHP_179,CUST_4,LANE_5,Houston,Chicago,store_delivery,chassis_20ft,171,1.077,8.8,3.47,0,515.69,113.86,747.67,904.39,904.39,156.72,0.1733,50.97,105.75,0.1169,883.66,0.0235,True,capacity_available
+SHP_180,CUST_5,LANE_5,Oakland,Atlanta,inland,chassis_20ft,1227,0.996,98.03,20.47,100,2934.38,93.13,4005.65,4761.3,4761.3,755.65,0.1587,468.86,286.8,0.0602,4931.94,-0.0346,True,price_acceptable
+SHP_181,CUST_3,LANE_2,Seattle,Atlanta,drayage,chassis_40ft,65,0.993,2.57,1.44,150,225.98,49.8,496.37,590.39,590.39,94.02,0.1593,55.48,38.54,0.0653,581.89,0.0146,True,service_reputation
+SHP_182,CUST_1,LANE_1,Los Angeles,Chicago,inland,chassis_20ft,565,0.985,26.92,10.26,0,1335.39,118.73,1914.39,2327.35,2327.35,412.96,0.1774,206.47,206.49,0.0887,2385.52,-0.0244,True,price_acceptable
+SHP_183,CUST_4,LANE_2,Houston,Dallas,linehaul,chassis_20ft,1219,0.966,56.78,22.46,100,2354.42,62.44,3416.44,4190.81,4190.81,774.37,0.1848,331.98,442.39,0.1056,4196.53,-0.0014,True,service_reputation
+SHP_184,CUST_4,LANE_1,Los Angeles,Phoenix,inland,truck_48ft,1333,1.089,82.59,23.95,50,3483.18,100.5,4643.74,5367.57,5367.57,723.82,0.1349,511.25,212.57,0.0396,5640.54,-0.0484,True,capacity_available
+SHP_185,CUST_3,LANE_5,Seattle,Chicago,linehaul,chassis_40ft,637,1.189,37.68,12.29,100,1514.23,72.76,2175.58,2657.28,2657.28,481.7,0.1813,235.33,246.37,0.0927,2541.67,0.0455,False,no_capacity
+SHP_186,CUST_3,LANE_2,Los Angeles,Dallas,drayage,truck_48ft,35,1.174,0.94,0.62,0,143.86,83.34,258.6,294.04,294.04,35.44,0.1205,25.97,9.47,0.0322,314.38,-0.0647,True,service_reputation
+SHP_187,CUST_3,LANE_2,Seattle,Chicago,inland,truck_48ft,1292,0.988,63.88,25.05,50,3063.6,76.51,4253.43,4858.27,4858.27,604.84,0.1245,307.82,297.02,0.0611,4865.35,-0.0015,True,service_reputation
+SHP_188,CUST_1,LANE_4,Seattle,Atlanta,drayage,truck_53ft,26,1.181,1.94,0.44,150,107.5,111.61,389.11,484.98,484.98,95.86,0.1977,45.09,50.78,0.1047,454.72,0.0665,False,lost_on_service
+SHP_189,CUST_2,LANE_3,Houston,Dallas,drayage,chassis_20ft,19,1.063,0.77,0.36,50,70.7,100.29,237.43,295.81,295.81,58.37,0.1973,26.32,32.05,0.1084,273.2,0.0827,False,lost_on_service
+SHP_190,CUST_3,LANE_5,Oakland,Chicago,linehaul,chassis_20ft,1058,1.061,31.9,21.23,0,2244.25,112.32,3261.74,3789.12,3789.12,527.38,0.1392,294.1,233.28,0.0616,3516.61,0.0775,False,no_capacity
+SHP_191,CUST_2,LANE_5,Los Angeles,Dallas,linehaul,chassis_20ft,169,1.145,7.53,3.39,150,387.04,78.79,736.11,858.42,858.42,122.3,0.1425,56.69,65.62,0.0764,922.13,-0.0691,True,service_reputation
+SHP_192,CUST_2,LANE_2,Oakland,Dallas,inland,truck_53ft,159,1.129,12.65,2.9,0,430.86,89.8,624.84,716.7,716.7,91.86,0.1282,53.9,37.96,0.053,721.85,-0.0071,True,price_acceptable
+SHP_193,CUST_1,LANE_4,Los Angeles,Phoenix,store_delivery,truck_48ft,108,0.919,6.33,2.01,50,277.99,69.13,475.12,571.62,571.62,96.51,0.1688,32.27,64.24,0.1124,565.25,0.0113,True,price_acceptable
+SHP_194,CUST_1,LANE_1,Houston,Phoenix,store_delivery,truck_48ft,150,1.114,7.32,2.94,150,467.95,64.26,831.78,970.8,970.8,139.02,0.1432,51.76,87.26,0.0899,1046.81,-0.0726,True,service_reputation
+SHP_195,CUST_2,LANE_1,Houston,Phoenix,drayage,truck_48ft,26,1.082,1.15,0.54,50,98.49,99.05,268.34,307.14,307.14,38.8,0.1263,24.16,14.63,0.0476,293.15,0.0477,False,too_expensive
+SHP_196,CUST_3,LANE_5,Seattle,Dallas,drayage,truck_48ft,16,1.177,0.51,0.27,50,65.89,95.51,226.26,267.8,267.8,41.54,0.1551,20.25,21.29,0.0795,257.85,0.0386,False,too_expensive
+SHP_197,CUST_5,LANE_3,Houston,Atlanta,linehaul,truck_53ft,913,0.913,45.45,17.17,0,1666.52,54.09,2323.32,2818.59,2818.59,495.27,0.1757,240.42,254.85,0.0904,2698.72,0.0444,False,too_expensive
+SHP_198,CUST_4,LANE_4,Seattle,Dallas,inland,truck_53ft,779,1.012,38.63,14.51,150,1891.96,81.53,2687.81,3114.49,3114.49,426.68,0.137,221.52,205.16,0.0659,3014.0,0.0333,False,too_expensive
+SHP_199,CUST_3,LANE_4,Los Angeles,Atlanta,linehaul,truck_53ft,1078,1.029,32.87,18.02,0,2219.16,47.58,3018.74,3763.96,3763.96,745.22,0.198,242.07,503.14,0.1337,3718.07,0.0123,True,capacity_available
+SHP_200,CUST_5,LANE_4,Los Angeles,Atlanta,store_delivery,chassis_20ft,100,1.169,6.12,2.05,0,327.18,77.52,492.45,583.84,583.84,91.39,0.1565,46.27,45.12,0.0773,585.07,-0.0021,True,capacity_available
+SHP_201,CUST_2,LANE_1,Los Angeles,Atlanta,inland,chassis_40ft,410,1.007,20.9,8.27,100,990.63,54.54,1477.12,1670.87,1670.87,193.75,0.116,143.2,50.55,0.0303,1589.66,0.0511,False,too_expensive
+SHP_202,CUST_4,LANE_2,Houston,Dallas,store_delivery,chassis_20ft,23,1.058,1.47,0.5,0,68.14,76.81,166.58,190.76,190.76,24.18,0.1268,11.54,12.63,0.0662,176.21,0.0826,False,no_capacity
+SHP_203,CUST_3,LANE_5,Seattle,Dallas,drayage,truck_53ft,70,1.174,4.66,1.35,0,287.52,96.64,451.11,537.93,537.93,86.82,0.1614,33.78,53.04,0.0986,550.92,-0.0236,True,capacity_available
+SHP_204,CUST_5,LANE_2,Los Angeles,Chicago,linehaul,truck_48ft,699,1.049,17.92,14.16,50,1466.74,60.57,2077.74,2456.57,2456.57,378.83,0.1542,167.94,210.89,0.0858,2619.22,-0.0621,True,service_reputation
+SHP_205,CUST_4,LANE_1,Los Angeles,Chicago,drayage,chassis_40ft,64,1.15,3.96,1.3,150,257.58,81.02,550.3,644.83,644.83,94.53,0.1466,48.27,46.26,0.0717,662.1,-0.0261,True,service_reputation
+SHP_206,CUST_1,LANE_5,Seattle,Atlanta,inland,chassis_40ft,566,1.049,25.03,10.26,0,1424.82,110.7,2061.41,2558.9,2558.9,497.49,0.1944,237.82,259.67,0.1015,2638.08,-0.03,True,capacity_available
+SHP_207,CUST_4,LANE_2,Houston,Phoenix,drayage,chassis_20ft,78,1.16,6.02,1.53,100,316.71,50.38,541.86,646.11,646.11,104.25,0.1613,62.88,41.37,0.064,637.32,0.0138,True,service_reputation
+SHP_208,CUST_2,LANE_1,Los Angeles,Phoenix,store_delivery,chassis_40ft,168,1.048,13.05,2.97,0,493.05,59.14,696.8,851.7,851.7,154.9,0.1819,44.99,109.92,0.1291,833.9,0.0213,True,price_acceptable
+SHP_209,CUST_2,LANE_3,Houston,Phoenix,inland,truck_48ft,992,1.084,54.68,18.64,150,2580.32,70.73,3547.65,4358.89,4358.89,811.25,0.1861,250.34,560.91,0.1287,4328.31,0.0071,True,price_acceptable
+SHP_210,CUST_4,LANE_2,Los Angeles,Dallas,drayage,truck_53ft,11,1.132,0.5,0.2,150,43.56,60.21,263.24,323.23,323.23,59.98,0.1856,27.54,32.44,0.1004,346.27,-0.0666,True,service_reputation
+SHP_211,CUST_4,LANE_1,Seattle,Dallas,drayage,truck_53ft,36,1.052,1.86,0.63,50,132.6,63.41,276.77,324.11,324.11,47.34,0.1461,21.75,25.59,0.079,341.34,-0.0505,True,price_acceptable
+SHP_212,CUST_4,LANE_2,Seattle,Phoenix,store_delivery,chassis_40ft,33,1.112,1.25,0.64,100,102.75,113.33,346.66,420.05,420.05,73.39,0.1747,35.11,38.28,0.0911,412.95,0.0172,True,price_acceptable
+SHP_213,CUST_1,LANE_1,Seattle,Dallas,store_delivery,truck_53ft,64,1.025,4.09,1.21,0,183.72,43.83,286.61,352.68,352.68,66.07,0.1873,35.23,30.84,0.0875,374.52,-0.0583,True,service_reputation
+SHP_214,CUST_5,LANE_3,Oakland,Dallas,inland,truck_53ft,779,0.953,52.34,15.68,0,1781.38,101.73,2646.45,3267.08,3267.08,620.63,0.19,294.98,325.66,0.0997,3320.67,-0.0161,True,price_acceptable
+SHP_215,CUST_1,LANE_3,Houston,Phoenix,drayage,chassis_40ft,26,1.178,2.02,0.54,150,107.19,67.78,350.43,423.51,423.51,73.08,0.1726,29.07,44.01,0.1039,399.49,0.0601,False,lost_on_service
+SHP_216,CUST_2,LANE_5,Seattle,Atlanta,store_delivery,truck_53ft,36,1.058,2.63,0.63,50,106.67,89.87,271.05,305.56,305.56,34.51,0.1129,15.64,18.87,0.0617,303.12,0.0081,True,price_acceptable
+SHP_217,CUST_2,LANE_5,Los Angeles,Chicago,store_delivery,truck_53ft,137,0.96,5.37,2.54,0,368.27,104.99,559.74,681.66,681.66,121.92,0.1789,59.76,62.16,0.0912,705.26,-0.0335,True,price_acceptable
+SHP_218,CUST_5,LANE_1,Seattle,Chicago,linehaul,chassis_20ft,827,1.153,31.38,16.62,0,1906.31,106.86,2609.33,3063.27,3063.27,453.95,0.1482,270.32,183.63,0.0599,2903.79,0.0549,False,no_capacity
+SHP_219,CUST_3,LANE_2,Houston,Phoenix,inland,truck_48ft,514,1.057,19.27,10.49,50,1303.69,84.44,1829.76,2225.27,2225.27,395.5,0.1777,166.81,228.69,0.1028,2144.19,0.0378,False,no_capacity
+SHP_220,CUST_1,LANE_4,Oakland,Phoenix,drayage,truck_53ft,28,1.165,1.54,0.6,50,114.14,67.52,260.77,301.46,301.46,40.69,0.135,30.1,10.6,0.0351,313.56,-0.0386,True,capacity_available
+SHP_221,CUST_4,LANE_4,Seattle,Atlanta,inland,chassis_40ft,706,1.152,15.54,13.98,100,1952.35,44.43,2647.8,3015.3,3015.3,367.5,0.1219,255.59,111.92,0.0371,2842.65,0.0607,False,too_expensive
+SHP_222,CUST_5,LANE_3,Oakland,Phoenix,linehaul,truck_53ft,1419,0.933,76.66,24.08,50,2647.54,104.52,3848.14,4399.79,4399.79,551.65,0.1254,431.09,120.56,0.0274,4318.94,0.0187,True,service_reputation
+SHP_223,CUST_5,LANE_5,Oakland,Atlanta,linehaul,chassis_40ft,1195,0.924,67.19,25.18,0,2207.43,70.19,3425.85,4035.03,4035.03,609.18,0.151,211.12,398.06,0.0987,3721.09,0.0844,False,lost_on_service
+SHP_224,CUST_1,LANE_4,Los Angeles,Phoenix,drayage,chassis_40ft,47,0.974,3.05,0.96,150,160.25,41.16,397.41,449.28,449.28,51.87,0.1155,35.43,16.44,0.0366,480.64,-0.0652,True,price_acceptable
+SHP_225,CUST_1,LANE_1,Oakland,Phoenix,inland,chassis_20ft,598,0.931,37.76,11.38,150,1336.0,113.9,2109.59,2425.77,2425.77,316.17,0.1303,212.2,103.98,0.0429,2476.44,-0.0205,True,service_reputation
+SHP_226,CUST_3,LANE_5,Los Angeles,Chicago,inland,truck_48ft,327,1.164,6.8,5.53,50,913.32,94.31,1324.9,1551.4,1551.4,226.5,0.146,98.02,128.48,0.0828,1664.25,-0.0678,True,service_reputation
+SHP_227,CUST_3,LANE_3,Houston,Dallas,linehaul,chassis_40ft,169,1.157,10.28,3.54,0,390.98,118.91,622.61,722.84,722.84,100.23,0.1387,40.31,59.92,0.0829,677.39,0.0671,False,lost_on_service
+SHP_228,CUST_2,LANE_4,Seattle,Atlanta,inland,truck_53ft,842,0.917,22.06,16.36,150,1852.98,92.26,2775.58,3134.04,3134.04,358.46,0.1144,255.59,102.87,0.0328,3361.31,-0.0676,True,service_reputation
+SHP_229,CUST_2,LANE_5,Seattle,Chicago,store_delivery,chassis_20ft,30,1.001,1.61,0.65,100,84.07,110.12,318.91,363.74,363.74,44.83,0.1233,26.47,18.36,0.0505,369.89,-0.0166,True,service_reputation
+SHP_230,CUST_1,LANE_1,Oakland,Atlanta,inland,truck_53ft,997,1.104,70.34,20.59,0,2641.82,64.26,3395.66,4111.26,4111.26,715.6,0.1741,368.01,347.59,0.0845,3976.91,0.0338,False,no_capacity
+SHP_231,CUST_5,LANE_2,Oakland,Phoenix,linehaul,truck_53ft,1355,0.941,43.09,29.57,0,2549.87,65.31,3551.71,4427.24,4427.24,875.53,0.1978,264.24,611.28,0.1381,4318.03,0.0253,True,capacity_available
+SHP_232,CUST_1,LANE_2,Houston,Phoenix,linehaul,chassis_20ft,140,0.999,7.93,2.41,150,279.62,91.78,624.41,702.98,702.98,78.56,0.1118,37.05,41.52,0.0591,698.17,0.0069,True,price_acceptable
+SHP_233,CUST_4,LANE_3,Seattle,Dallas,inland,chassis_20ft,499,1.015,38.27,9.55,0,1215.73,75.32,1731.08,2049.21,2049.21,318.14,0.1552,189.43,128.71,0.0628,2116.77,-0.0319,True,price_acceptable
+SHP_234,CUST_4,LANE_5,Houston,Atlanta,inland,truck_53ft,406,1.135,26.61,7.78,0,1105.46,103.69,1572.65,1842.07,1842.07,269.43,0.1463,137.44,131.99,0.0717,1954.26,-0.0574,True,service_reputation
+SHP_235,CUST_3,LANE_3,Seattle,Dallas,linehaul,truck_53ft,660,0.973,40.15,14.1,50,1284.94,74.9,1952.03,2432.92,2432.92,480.89,0.1977,126.21,354.68,0.1458,2361.3,0.0303,False,too_expensive
+SHP_236,CUST_4,LANE_3,Los Angeles,Chicago,linehaul,truck_53ft,722,0.929,18.55,12.91,150,1340.77,75.61,2103.56,2386.93,2386.93,283.37,0.1187,161.28,122.08,0.0511,2577.2,-0.0738,True,capacity_available
+SHP_237,CUST_2,LANE_1,Los Angeles,Dallas,drayage,truck_53ft,65,0.942,3.74,1.16,50,214.36,45.06,367.92,440.91,440.91,72.99,0.1655,23.31,49.69,0.1127,468.69,-0.0593,True,capacity_available
+SHP_238,CUST_2,LANE_4,Seattle,Chicago,linehaul,truck_48ft,289,1.164,11.24,6.16,100,672.6,42.09,1072.95,1297.72,1297.72,224.77,0.1732,104.09,120.68,0.093,1388.21,-0.0652,True,price_acceptable
+SHP_239,CUST_3,LANE_3,Los Angeles,Chicago,linehaul,chassis_20ft,1245,1.055,36.39,21.16,150,2626.64,104.38,3569.14,4283.01,4283.01,713.88,0.1667,375.57,338.3,0.079,4246.84,0.0085,True,service_reputation
+SHP_240,CUST_5,LANE_5,Seattle,Dallas,inland,chassis_40ft,896,0.941,54.85,15.26,50,2023.73,61.85,2706.45,3104.94,3104.94,398.49,0.1283,225.94,172.56,0.0556,3307.85,-0.0613,True,price_acceptable
+SHP_241,CUST_2,LANE_2,Seattle,Dallas,drayage,truck_48ft,32,1.009,2.09,0.65,50,113.02,107.44,298.42,349.7,349.7,51.28,0.1466,26.61,24.67,0.0705,344.19,0.016,True,service_reputation
+SHP_242,CUST_2,LANE_4,Los Angeles,Chicago,inland,chassis_20ft,515,1.14,22.98,10.63,0,1409.54,81.95,1955.43,2394.99,2394.99,439.57,0.1835,162.08,277.49,0.1159,2449.49,-0.0222,True,service_reputation
+SHP_243,CUST_1,LANE_5,Los Angeles,Atlanta,drayage,truck_48ft,12,0.981,0.86,0.24,100,41.22,115.37,266.25,328.93,328.93,62.68,0.1906,18.13,44.55,0.1354,341.78,-0.0376,True,price_acceptable
+SHP_244,CUST_3,LANE_1,Houston,Phoenix,linehaul,truck_48ft,860,0.934,53.62,14.66,150,1606.2,54.66,2454.98,2954.72,2954.72,499.74,0.1691,196.16,303.58,0.1027,3124.95,-0.0545,True,service_reputation
+SHP_245,CUST_3,LANE_5,Los Angeles,Phoenix,drayage,truck_48ft,68,0.971,4.71,1.41,0,231.2,45.53,338.04,393.16,393.16,55.12,0.1402,25.21,29.91,0.0761,396.63,-0.0087,True,capacity_available
+SHP_246,CUST_2,LANE_2,Los Angeles,Dallas,linehaul,chassis_20ft,628,1.133,40.4,10.75,100,1423.43,98.37,2157.06,2430.51,2430.51,273.44,0.1125,228.98,44.46,0.0183,2571.54,-0.0548,True,service_reputation
+SHP_247,CUST_5,LANE_2,Seattle,Phoenix,drayage,chassis_20ft,61,1.023,3.96,1.31,100,218.36,71.11,462.05,520.34,520.34,58.29,0.112,46.86,11.43,0.022,529.03,-0.0164,True,capacity_available
+SHP_248,CUST_1,LANE_2,Houston,Chicago,inland,truck_53ft,917,1.05,35.13,15.38,0,2310.59,99.22,3049.01,3538.86,3538.86,489.85,0.1384,323.24,166.61,0.0471,3592.63,-0.015,True,service_reputation
+SHP_249,CUST_5,LANE_5,Seattle,Atlanta,drayage,chassis_40ft,34,1.001,0.9,0.69,0,119.17,102.27,253.37,303.82,303.82,50.45,0.1661,29.94,20.51,0.0675,297.67,0.0206,True,service_reputation
+SHP_250,CUST_5,LANE_3,Houston,Dallas,drayage,truck_53ft,31,1.021,2.25,0.61,150,110.81,116.08,405.95,455.84,455.84,49.89,0.1094,29.71,20.17,0.0443,486.55,-0.0631,True,capacity_available
+SHP_251,CUST_1,LANE_3,Seattle,Chicago,drayage,chassis_40ft,57,0.932,3.56,1.09,0,185.87,102.66,335.94,418.3,418.3,82.36,0.1969,23.56,58.8,0.1406,412.99,0.0129,True,price_acceptable
+SHP_252,CUST_1,LANE_3,Oakland,Atlanta,drayage,chassis_20ft,74,1.145,5.04,1.42,100,296.51,55.84,540.47,614.75,614.75,74.28,0.1208,32.47,41.81,0.068,650.98,-0.0556,True,price_acceptable
+SHP_253,CUST_3,LANE_3,Los Angeles,Dallas,inland,chassis_40ft,1391,0.945,47.93,23.56,0,3154.05,50.81,4034.34,4883.06,4883.06,848.73,0.1738,273.51,575.21,0.1178,4672.69,0.045,False,lost_on_service
+SHP_254,CUST_5,LANE_5,Houston,Phoenix,store_delivery,chassis_20ft,153,0.901,11.61,3.28,0,385.93,50.16,574.32,647.61,647.61,73.29,0.1132,42.27,31.02,0.0479,612.14,0.0579,False,no_capacity
+SHP_255,CUST_5,LANE_5,Houston,Phoenix,drayage,chassis_40ft,35,1.069,1.36,0.71,0,130.93,53.05,223.39,257.43,257.43,34.04,0.1322,17.27,16.77,0.0651,243.77,0.0561,False,too_expensive
+SHP_256,CUST_2,LANE_3,Seattle,Atlanta,inland,chassis_20ft,489,0.901,18.97,9.24,150,1057.83,83.84,1645.02,1992.7,1992.7,347.68,0.1745,178.62,169.07,0.0848,2033.87,-0.0202,True,service_reputation
+SHP_257,CUST_3,LANE_1,Oakland,Chicago,store_delivery,chassis_40ft,85,1.024,3.4,1.54,150,243.6,71.26,528.51,646.27,646.27,117.76,0.1822,58.26,59.5,0.0921,668.62,-0.0334,True,service_reputation
+SHP_258,CUST_4,LANE_4,Los Angeles,Phoenix,inland,chassis_40ft,372,1.194,21.14,6.54,50,1066.28,105.35,1506.0,1689.45,1689.45,183.45,0.1086,139.98,43.47,0.0257,1652.98,0.0221,True,price_acceptable
+SHP_259,CUST_4,LANE_2,Oakland,Atlanta,linehaul,truck_53ft,813,1.166,47.93,17.13,0,1895.45,66.84,2574.08,3209.58,3209.58,635.5,0.198,300.67,334.83,0.1043,3121.96,0.0281,True,service_reputation
+SHP_260,CUST_3,LANE_3,Los Angeles,Phoenix,drayage,truck_48ft,51,0.922,2.58,0.86,0,164.64,81.67,285.78,351.15,351.15,65.37,0.1862,32.13,33.23,0.0946,376.77,-0.068,True,service_reputation
+SHP_261,CUST_2,LANE_2,Los Angeles,Dallas,linehaul,truck_48ft,236,1.054,8.12,5.04,0,497.54,67.02,727.72,854.63,854.63,126.91,0.1485,64.46,62.45,0.0731,851.45,0.0037,True,service_reputation
+SHP_262,CUST_2,LANE_5,Oakland,Chicago,linehaul,truck_48ft,1375,0.99,99.02,24.47,100,2721.4,54.77,3688.43,4294.59,4294.59,606.16,0.1411,331.44,274.72,0.064,4440.05,-0.0328,True,price_acceptable
+SHP_263,CUST_3,LANE_5,Houston,Phoenix,store_delivery,truck_53ft,119,1.171,3.17,2.5,150,390.21,102.86,758.55,895.18,895.18,136.63,0.1526,86.88,49.75,0.0556,893.23,0.0022,True,service_reputation
+SHP_264,CUST_5,LANE_1,Oakland,Atlanta,store_delivery,chassis_40ft,192,0.954,9.23,3.23,100,512.84,74.9,833.67,1038.0,1038.0,204.33,0.1969,95.19,109.14,0.1051,1036.29,0.0017,True,price_acceptable
+SHP_265,CUST_4,LANE_3,Seattle,Dallas,drayage,truck_53ft,79,1.058,6.32,1.37,100,292.63,96.31,553.05,666.21,666.21,113.16,0.1699,65.55,47.61,0.0715,704.9,-0.0549,True,capacity_available
+SHP_266,CUST_3,LANE_1,Los Angeles,Phoenix,linehaul,truck_48ft,818,1.061,39.37,16.56,50,1736.52,73.88,2469.61,2931.28,2931.28,461.67,0.1575,171.58,290.09,0.099,3007.69,-0.0254,True,price_acceptable
+SHP_267,CUST_4,LANE_4,Houston,Phoenix,drayage,truck_53ft,60,1.187,3.96,1.01,50,249.24,96.33,457.29,547.22,547.22,89.93,0.1643,39.67,50.26,0.0918,578.6,-0.0542,True,capacity_available
+SHP_268,CUST_5,LANE_5,Oakland,Chicago,linehaul,truck_53ft,480,1.062,22.69,9.97,150,1019.05,70.4,1600.12,1885.43,1885.43,285.31,0.1513,186.72,98.59,0.0523,1840.26,0.0245,True,capacity_available
+SHP_269,CUST_3,LANE_4,Oakland,Phoenix,linehaul,chassis_40ft,1131,1.071,74.24,23.94,150,2423.07,112.63,3661.89,4300.82,4300.82,638.93,0.1486,383.49,255.45,0.0594,4141.41,0.0385,False,no_capacity
+SHP_270,CUST_5,LANE_5,Houston,Phoenix,drayage,truck_53ft,63,1.076,1.5,1.09,100,237.33,41.77,427.35,514.23,514.23,86.88,0.1689,36.35,50.52,0.0983,495.31,0.0382,False,too_expensive
+SHP_271,CUST_5,LANE_1,Houston,Dallas,inland,truck_53ft,1167,1.107,62.91,20.16,0,3099.74,49.2,4162.48,5037.96,5037.96,875.48,0.1738,363.12,512.36,0.1017,5396.65,-0.0665,True,capacity_available
+SHP_272,CUST_1,LANE_2,Seattle,Phoenix,drayage,chassis_40ft,17,1.123,1.04,0.3,50,66.81,64.71,196.74,235.99,235.99,39.25,0.1663,23.17,16.07,0.0681,220.72,0.0692,False,lost_on_service
+SHP_273,CUST_4,LANE_4,Los Angeles,Phoenix,store_delivery,chassis_20ft,112,1.103,5.75,1.97,150,345.94,114.22,682.73,847.39,847.39,164.66,0.1943,72.9,91.76,0.1083,883.42,-0.0408,True,capacity_available
+SHP_274,CUST_5,LANE_1,Oakland,Chicago,store_delivery,chassis_40ft,135,1.14,9.98,2.28,50,430.83,74.12,655.3,745.8,745.8,90.5,0.1213,38.12,52.38,0.0702,789.85,-0.0558,True,capacity_available
+SHP_275,CUST_2,LANE_5,Seattle,Atlanta,inland,truck_53ft,884,1.079,66.26,17.92,150,2288.9,108.58,3400.95,3830.46,3830.46,429.51,0.1121,219.97,209.54,0.0547,3777.73,0.014,True,price_acceptable
+SHP_276,CUST_2,LANE_3,Houston,Atlanta,drayage,truck_53ft,60,1.047,4.06,1.09,0,219.82,82.39,358.95,420.3,420.3,61.35,0.146,34.08,27.27,0.0649,451.82,-0.0698,True,capacity_available
+SHP_277,CUST_5,LANE_3,Los Angeles,Atlanta,drayage,truck_53ft,66,0.946,2.02,1.34,150,218.45,86.87,519.34,627.18,627.18,107.84,0.1719,56.58,51.26,0.0817,643.15,-0.0248,True,capacity_available
+SHP_278,CUST_4,LANE_4,Seattle,Chicago,linehaul,chassis_40ft,1344,0.929,100.63,28.99,0,2496.36,94.36,3680.48,4154.24,4154.24,473.76,0.114,331.03,142.73,0.0344,4335.05,-0.0417,True,price_acceptable
+SHP_279,CUST_1,LANE_5,Houston,Atlanta,drayage,truck_53ft,66,1.165,3.24,1.24,0,269.01,56.17,383.0,476.39,476.39,93.39,0.196,34.4,59.0,0.1238,451.6,0.0549,False,no_capacity
+SHP_280,CUST_2,LANE_3,Oakland,Dallas,inland,chassis_20ft,856,0.952,34.81,18.64,0,1955.47,48.47,2627.85,2949.56,2949.56,321.71,0.1091,266.15,55.57,0.0188,2778.68,0.0615,False,lost_on_service
+SHP_281,CUST_1,LANE_1,Los Angeles,Atlanta,linehaul,chassis_20ft,822,0.944,52.78,15.22,150,1551.13,82.37,2453.98,2859.4,2859.4,405.42,0.1418,217.39,188.03,0.0658,2930.49,-0.0243,True,service_reputation
+SHP_282,CUST_5,LANE_2,Seattle,Chicago,inland,chassis_40ft,1340,1.022,82.07,27.49,0,3288.06,66.34,4346.02,5106.84,5106.84,760.82,0.149,401.3,359.51,0.0704,5436.03,-0.0606,True,service_reputation
+SHP_283,CUST_4,LANE_2,Seattle,Dallas,linehaul,truck_48ft,600,0.931,42.4,11.17,50,1116.8,88.36,1723.8,1992.73,1992.73,268.94,0.135,185.56,83.38,0.0418,1923.69,0.0359,False,no_capacity
+SHP_284,CUST_2,LANE_5,Los Angeles,Chicago,store_delivery,truck_53ft,54,1.143,3.67,1.04,50,172.78,74.0,350.18,404.74,404.74,54.56,0.1348,25.6,28.96,0.0716,407.09,-0.0058,True,service_reputation
+SHP_285,CUST_5,LANE_1,Houston,Chicago,store_delivery,truck_53ft,158,1.13,12.27,3.01,0,500.08,82.97,716.8,821.78,821.78,104.98,0.1277,47.49,57.49,0.07,871.8,-0.0574,True,capacity_available
+SHP_286,CUST_3,LANE_3,Seattle,Dallas,store_delivery,chassis_20ft,27,1.188,0.56,0.57,0,89.84,50.87,170.19,201.62,201.62,31.43,0.1559,12.24,19.19,0.0952,187.43,0.0757,False,no_capacity
+SHP_287,CUST_2,LANE_3,Houston,Dallas,store_delivery,chassis_20ft,106,0.903,7.26,2.22,0,267.94,65.25,423.53,479.14,479.14,55.61,0.1161,29.3,26.31,0.0549,455.22,0.0525,False,lost_on_service
+SHP_288,CUST_1,LANE_4,Oakland,Atlanta,store_delivery,truck_48ft,105,1.082,8.17,1.95,100,318.03,67.99,573.75,689.41,689.41,115.65,0.1678,61.51,54.15,0.0785,705.75,-0.0232,True,price_acceptable
+SHP_289,CUST_5,LANE_3,Houston,Atlanta,inland,truck_48ft,974,1.117,66.58,19.74,0,2611.27,107.72,3699.92,4174.63,4174.63,474.71,0.1137,215.33,259.38,0.0621,4013.32,0.0402,False,too_expensive
+SHP_290,CUST_4,LANE_1,Houston,Dallas,inland,chassis_20ft,975,1.017,70.15,17.45,0,2378.75,92.59,3231.0,3797.09,3797.09,566.1,0.1491,218.9,347.2,0.0914,3983.25,-0.0467,True,price_acceptable
+SHP_291,CUST_4,LANE_2,Los Angeles,Atlanta,store_delivery,truck_53ft,130,1.08,5.87,2.53,0,393.05,89.4,588.47,717.28,717.28,128.81,0.1796,53.1,75.7,0.1055,766.81,-0.0646,True,capacity_available
+SHP_292,CUST_2,LANE_4,Los Angeles,Phoenix,inland,truck_53ft,433,1.15,18.05,8.98,0,1194.69,49.09,1629.57,1995.87,1995.87,366.3,0.1835,125.06,241.24,0.1209,1915.69,0.0419,False,no_capacity
+SHP_293,CUST_5,LANE_1,Los Angeles,Dallas,drayage,truck_48ft,18,0.951,0.64,0.37,100,59.92,67.13,244.28,277.13,277.13,32.84,0.1185,17.72,15.12,0.0546,289.17,-0.0416,True,capacity_available
+SHP_294,CUST_2,LANE_4,Houston,Chicago,drayage,truck_53ft,38,1.07,1.84,0.72,50,142.3,67.32,287.39,357.92,357.92,70.53,0.197,27.01,43.52,0.1216,365.22,-0.02,True,service_reputation
+SHP_295,CUST_4,LANE_2,Los Angeles,Chicago,drayage,truck_53ft,53,0.977,2.59,0.89,100,181.32,43.24,370.21,420.55,420.55,50.34,0.1197,25.3,25.04,0.0595,413.95,0.0159,True,capacity_available
+SHP_296,CUST_4,LANE_1,Los Angeles,Phoenix,store_delivery,truck_53ft,130,1.007,7.1,2.59,150,366.61,117.44,745.41,902.98,902.98,157.57,0.1745,51.32,106.25,0.1177,890.95,0.0135,True,price_acceptable
+SHP_297,CUST_5,LANE_1,Los Angeles,Phoenix,linehaul,chassis_40ft,795,1.116,40.3,13.44,150,1774.64,43.93,2609.66,3117.38,3117.38,507.72,0.1629,288.92,218.8,0.0702,2988.66,0.0431,False,too_expensive
+SHP_298,CUST_2,LANE_4,Oakland,Dallas,linehaul,truck_48ft,885,1.198,52.35,19.27,0,2119.88,95.19,2919.55,3452.77,3452.77,533.22,0.1544,194.11,339.12,0.0982,3294.93,0.0479,False,no_capacity
+SHP_299,CUST_4,LANE_1,Oakland,Atlanta,linehaul,truck_48ft,893,1.158,50.85,19.76,150,2068.73,91.93,3088.94,3600.26,3600.26,511.32,0.142,345.1,166.21,0.0462,3389.41,0.0622,False,no_capacity
+SHP_300,CUST_2,LANE_5,Seattle,Atlanta,inland,chassis_20ft,814,0.928,32.54,16.09,150,1813.85,115.07,2845.47,3525.08,3525.08,679.61,0.1928,272.56,407.05,0.1155,3443.98,0.0235,True,service_reputation
